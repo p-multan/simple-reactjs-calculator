@@ -1,0 +1,9 @@
+.Screen {
+    height: 25vh;
+    width: 100%;
+    padding: 0 2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    color: var(--color-light-white);
+    background-color: var(--color-tomato);
+}
