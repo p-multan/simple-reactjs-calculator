@@ -15,16 +15,18 @@ body {
 
 :root {
     --color-white: #fff;
-    --color-light-white: #eee;
+    --color-light-white: #dfe6e9;
 
-    --color-tomato: #d40640;
-    --color-purple-transparent: rgba(88, 24, 69, .9);
-    --color-pink-transparent: rgba(216, 13, 91, .9);
+    --color-green-dark: #006b56;
+    --color-green-light: #00866b;
+    --color-orange: #e17055;
+    --color-red: #d63031;
 
-    --color-orange: #ff3c00;
 
-    --color-light-black: #222;
     --color-black: #000;
+
+    --black-light-transparent: rgba(0, 0, 0, 0.9);
+    --black-dark-transparent: rgba(0, 0, 0, .95);
 
     --shadow: rgba(0,0,0,.4);
 }

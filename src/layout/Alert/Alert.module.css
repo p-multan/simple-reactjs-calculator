@@ -1,0 +1,12 @@
+.Alert {
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2rem 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: var(--color-red);
+    color: var(--color-light-white);
+    text-transform: uppercase;
+}

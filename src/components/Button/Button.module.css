@@ -1,0 +1,43 @@
+.Btn {
+  width: 25%;
+  height: 100%;
+  font-size: 3rem;
+  font-family: inherit;
+  background-color: var(--color-light-white);
+  color: var(--color-green-dark);
+  border: 1px solid transparent;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.Btn:hover {
+  color: var(--color-light-white);
+  background-color: var(--color-green-dark);
+}
+
+.Btn:active {
+  transform: scale(0.95);
+}
+
+.Btn--large {
+  width: 50%;
+  color: var(--color-white);
+  background-color: var(--color-green-dark);
+  transition: all 0.2s;
+}
+
+.Btn--large:hover {
+  background-color: var(--color-light-black);
+  color: var(--color-light-white);
+}
+
+.Btn--primary {
+  color: var(--color-orange);
+}
+
+.Btn--operator {
+  color: var(--color-red);
+}

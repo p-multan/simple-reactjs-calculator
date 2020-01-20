@@ -4,11 +4,11 @@ import ComputationScreen from './ComputationScreen/ComputationScreen';
 
 import styles from './Screen.module.css';
 
-const Screen = () => {
+const Screen = props => {
   return (
     <section className={styles.Screen}>
-      <ResultScreen />
-      <ComputationScreen />
+      <ResultScreen>{props.result}</ResultScreen>
+      <ComputationScreen>{props.equation}</ComputationScreen>
     </section>
   );
 };

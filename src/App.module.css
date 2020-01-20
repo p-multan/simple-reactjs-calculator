@@ -1,8 +1,8 @@
 .App {
+    position: relative;
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to bottom right, var(--color-pink-transparent), var(--color-purple-transparent)), url('https://i.pinimg.com/originals/91/b5/cd/91b5cdab51e207263169904b227503b4.jpg');
-    background-size: cover;
+    background: linear-gradient(to bottom right, var(--black-light-transparent), var(--black-dark-transparent)), url('./assets/images/bg.jpg') no-repeat center center/cover;
 
     display: flex;
     justify-content: center;

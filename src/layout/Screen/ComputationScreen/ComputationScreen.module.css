@@ -1,8 +1,10 @@
 .ComputationScreen {
     height: 6vh;
     font-size: 1.3rem;
+    padding: 0 2rem;
+    background-color: var(--color-green-light);
 
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
 }

@@ -1,6 +1,7 @@
 .ResultScreen {
     height: 19vh;
     font-size: 5rem;
+    padding: 0 2rem;
     font-weight: 600;
 
     display: flex;
