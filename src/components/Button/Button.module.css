@@ -30,7 +30,7 @@
 }
 
 .Btn--large:hover {
-  background-color: var(--color-light-black);
+  background-color: var(--color-red);
   color: var(--color-light-white);
 }
 

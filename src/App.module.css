@@ -2,7 +2,7 @@
     position: relative;
     height: 100vh;
     width: 100%;
-    background: linear-gradient(to bottom right, var(--black-light-transparent), var(--black-dark-transparent)), url('./assets/images/bg.jpg') no-repeat center center/cover;
+    background: linear-gradient(to bottom right, var(--color-black-light-transparent), var(--color-black-dark-transparent)), url('./assets/images/bg.jpg') no-repeat center center/cover;
 
     display: flex;
     justify-content: center;
